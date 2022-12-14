@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
@@ -14,5 +15,97 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUyg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="@string/Uyg1_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnUyg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Uyg2_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg1"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg1" />
+
+    <Button
+        android:id="@+id/btnUyg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Uyg3_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg2"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg2" />
+
+    <Button
+        android:id="@+id/btnUyg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="@string/Uyg4_name"
+        app:layout_constraintBottom_toTopOf="@+id/btnUyg5"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg3"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg3" />
+
+    <Button
+        android:id="@+id/btnUyg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Uyg5_name"
+        app:layout_constraintBottom_toTopOf="@+id/btnUyg6"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg4" />
+
+    <Button
+        android:id="@+id/btnUyg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Uyg6_name"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg5"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnUyg7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/Uyg7_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg6"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg6" />
+
+    <Button
+        android:id="@+id/btnUyg8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="@string/Uyg8_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg7"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg7" />
+
+    <Button
+        android:id="@+id/btnUyg9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/Uyg9_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg8"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg8" />
+
+    <Button
+        android:id="@+id/btnUyg10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:text="@string/Uyg10_name"
+        app:layout_constraintStart_toStartOf="@+id/btnUyg9"
+        app:layout_constraintTop_toBottomOf="@+id/btnUyg9" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
