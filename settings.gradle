@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "Unite4_KararveDonguYapilari"
+rootProject.name = "Unite4-KararveDonguYapilari"
 include ':app'
